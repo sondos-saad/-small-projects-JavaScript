@@ -1,0 +1,49 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "title": "iPhone 9",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 30000,
+            "onSale": true,
+            "count": 10,
+            "imageURL": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Mouse",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 100,
+            "onSale": true,
+            "count": 10,
+            "imageURL": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Laptop",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 30000,
+            "onSale": true,
+            "count": 10,
+            "imageURL": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        },
+        {
+            "id": 4,
+            "title": "iPhone 12",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 30000,
+            "onSale": true,
+            "count": 10,
+            "imageURL": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Camera",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 30000,
+            "onSale": true,
+            "count": 10,
+            "imageURL": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        }
+    ]
+}

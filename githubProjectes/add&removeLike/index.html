@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <div class="header">confirmation message</div>
+            <div class="body">Are You Sure To Unfollow</div>
+            <div class="footer">
+                <button onclick="removeClassShow()">Yes</button>
+                <button onclick="removeClassShow()">No</button>
+            </div>
+        </div>
+        <button class="btn" onclick="addClassShow()">Follow</button>
+    </div>
+    <hr>
+    <div class="wrapperTwo">
+        <ul class="linkTabs">
+            <li><button class="btn-tab active" onclick="showTab(event ,'tab01')">Tab 1</button></li>
+            <li><button class="btn-tab" onclick="showTab(event ,'tab02')"> Tab 2</button></li>
+            <li><button class="btn-tab" onclick="showTab(event ,'tab03')">Tab 3</button></li>
+            <li><button class="btn-tab" onclick="showTab(event ,'tab04')"> Tab 4</button></li>
+        </ul>
+        <div id="tab01" class="content-tab">
+            <p>The content Tab 1</p>
+        </div>
+        <div id="tab02" class="content-tab">
+            <p>The content Tab 2</p>
+        </div>
+        <div id="tab03" class="content-tab">
+            <p>The content Tab 3</p>
+        </div>
+        <div id="tab04" class="content-tab">
+            <p>The content Tab 4</p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

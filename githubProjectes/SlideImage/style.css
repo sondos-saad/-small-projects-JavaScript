@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sliders{
+    width: 100%;
+    position: relative;
+    padding: 3rem 0;
+}
+.sliders .slider-item{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.sliders .slider-item img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.sliders .slider-item .text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.502);
+    padding: 1rem 0;  
+    font-size: 20px;
+}
+.sliders .slider-item.active{
+    display: block;
+}
+.fade{
+    animation-name: animate;
+    animation-duration: 2s;
+}
+@keyframes animate {
+    from{
+        opacity: .5;
+    }
+    to{
+       opacity: 1; 
+    }
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.arrow>button{
+    all: unset;
+    cursor: pointer;
+    padding:  1rem 2rem;
+    background-color: rgb(209, 209, 245);
+   
+}
+.arrow button i{
+    font-size: 20px;
+}

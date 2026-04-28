@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu | User Account Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="navigation">
+        <div class="userBx">
+            <div class="imgBx">
+                <img src="/0684456b-aa2b-4631-86f7-93ceaf33303c.jpg"/>
+            </div>
+            <p class="username">Sondos Saad</p>
+        </div>
+        <div class="menuToggle"></div>
+        <ul class="menu">
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Notification</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </section>
+
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            navigation.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
