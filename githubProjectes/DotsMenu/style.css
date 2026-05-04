@@ -14,6 +14,11 @@ body{
     position: relative;
     width: 70px;
     height: 70px;
-    background-color: red;
-    
+    background-color: #212532;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navigation.active{
+     width: 200px;
+    height: 200px;
 }
